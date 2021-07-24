@@ -28,10 +28,10 @@ const Hero = () => {
                   color="heading"
                   mb="40px"
                 >
-                  ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER
+                  2 models, 2 weeks, 2 free iterations.
                 </Text>
                 <Title variant="hero">
-                  I design digital crafts for clients.
+                  3D Illustrations. Custom Made.
                 </Title>
 
                 <Box mt="52px">
@@ -42,7 +42,7 @@ const Hero = () => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button arrowRight>Explore works </Button>
+                    <Button arrowRight>Examples </Button>
                   </Link>
                 </Box>
               </Box>
