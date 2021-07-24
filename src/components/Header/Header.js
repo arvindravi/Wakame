@@ -463,7 +463,7 @@ const Header = ({ isDark }) => {
                   <li className="nav-item">
                     <a
                       className="nav-link"
-                      href="https://uxtheme.net/theme-support"
+                      href="https://instagram.com/wakameillustrations"
                       target="_blank"
                     >
                       support
