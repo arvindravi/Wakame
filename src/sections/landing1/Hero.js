@@ -31,7 +31,7 @@ const Hero = () => {
                   2 models, 2 weeks, 2 free iterations.
                 </Text>
                 <Title variant="hero">
-                  3D Illustrations. Custom Made.
+                  3D Illustrations. Custom Made in 2 weeks.
                 </Title>
 
                 <Box mt="52px">

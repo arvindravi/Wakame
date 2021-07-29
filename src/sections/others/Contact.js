@@ -28,8 +28,7 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
                   Contact now
                 </Title>
                 <Text color="light" mb="2.75rem">
-                  Have a project or question? Send me a message. I will reply
-                  within 48 hours.
+                  Have a request for an illustration? Please leave a message describing your requirements. You'll receive a response within 24 hours.
                 </Text>
                 <ContactForm theme="dark" />
               </Box>
@@ -40,17 +39,8 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
                   <Text color="light">Email me at</Text>
 
                   <a href="mailto:hello@folio.com" className="font-weight-bold">
-                    <Span color="primary">hello@folio.com</Span>
+                    <Span color="primary">wakameillustrations@gmail.com</Span>
                   </a>
-                </div>
-                <div className="mt-5">
-                  <Text color="light">Call me at</Text>
-
-                  <div>
-                    <a href="tel:+1-402-4983" className="font-weight-bold">
-                      <Span color="primary">+1-402-4983</Span>
-                    </a>
-                  </div>
                 </div>
               </ContactCard>
             </Col>
