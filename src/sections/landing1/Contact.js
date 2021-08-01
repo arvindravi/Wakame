@@ -5,6 +5,11 @@ import GlobalContext from "../../context/GlobalContext";
 import { Section, Title, ButtonIcon } from "../../components/Core";
 import Availability from "../../components/Availability";
 
+
+import { createWidget } from '@typeform/embed'
+import '@typeform/embed/build/css/widget.css'
+// createWidget('yzY7BUP2', { container: document.querySelector('#form') })
+
 const Hero = () => {
   const gContext = useContext(GlobalContext);
 
@@ -14,9 +19,8 @@ const Hero = () => {
         <Container>
           <Row className="text-center justify-content-center">
             <Col lg="10" xl="7">
-              <Availability />
               <div className="text-center my-5">
-                <Title>Do you have illustration project? Let's talk.</Title>
+                <Title>It's time to spice up your landing page.</Title>
               </div>
               <div className="text-center">
                 <ButtonIcon
@@ -27,6 +31,9 @@ const Hero = () => {
                 >
                   Let's Talk Now
                 </ButtonIcon>
+
+                <div data-tf-widget="yzY7BUP2"></div>
+                <script src="//embed.typeform.com/next/embed.js"></script>
               </div>
             </Col>
           </Row>

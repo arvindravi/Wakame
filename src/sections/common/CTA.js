@@ -14,9 +14,8 @@ const CTA = () => {
         <Container>
           <Row className="text-center justify-content-center">
             <Col lg="10" xl="7">
-              <Availability />
               <div className="text-center my-5">
-                <Title>Do you have illustration project? Let's talk.</Title>
+                <Title>Need a 3D Illustration</Title>
               </div>
               <div className="text-center">
                 <ButtonIcon
@@ -25,7 +24,7 @@ const CTA = () => {
                     gContext.toggleContact();
                   }}
                 >
-                  Let's Talk Now
+                  Request Design
                 </ButtonIcon>
               </div>
             </Col>
